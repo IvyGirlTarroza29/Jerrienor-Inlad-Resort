@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerrienor Inland Resort</title>
+
+    <link rel="stylesheet" href="..\styles\main-style.css">
+</head>
+
+<body>
+    <div class="homehero">
+        <header>
+            <h1>Jerrienor Inland Resort</h1>
+            <nav>
+                <a href="..\index.html">Home</a> &nbsp;
+                <a href="cottage.html">Cottages</a> &nbsp;
+                <a href="roomrates.html">Roomrates</a> &nbsp;
+                <a href="reservation.html">Reservations</a> &nbsp;
+                <a href="aboutus.html">About Us</a> &nbsp;
+            </nav>
+        </header>
+    </div>
+            <main>
+                <h1>Book Your Escape, Create Memories Forever: Reserve Your Paradise Today </h1>
+            </main>
+            <br>
+        <h2>Reservation Form</h2><br>
+            <form action="submit_reservation.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="checkin">Check-in Date:</label><br>
+                <input type="date" id="checkin" name="checkin" required><br><br>
+                
+                <label for="checkout">Check-out Date:</label><br>
+                <input type="date" id="checkout" name="checkout" required><br><br>
+                
+                <label for="special_requests">Special Requests:</label><br>
+                <textarea id="special_requests" name="special_requests"></textarea><br><br>
+                
+                <input type="submit" value="Submit Reservation">
+            </form>
+            <br>
+            <div>
+                <h2>For more inquires please dial/message: <br>
+                0965-253-5292 or visit us at Prk 3B Durian, San Miguel, Tagum City</h2>
+            </div>
+
+            <br>
+    <footer>
+        <hr>
+            <p>
+                <em>
+                    &copy;2024 Jerrienor Inland Resort. All Rights Reserved.
+                </em>
+            </p>
+        <hr>
+    </footer>
+</body>
+</html>
